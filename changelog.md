@@ -4,3 +4,4 @@
 - :📚: docs: inserido guia de commits (16-09-2025 15:54)
 - :🧱: ci: inserido CI de validação de código, e ajuste em README (16-09-2025 16:13)
 - :🧱: ci: ajuste no CI, permissão de leitura e escrita (16-09-2025 16:21)
+- :✨: feat: template para PR criado e adicionado ao REPO (16-09-2025 16:28)
