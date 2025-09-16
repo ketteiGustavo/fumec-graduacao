@@ -9,6 +9,12 @@ on:
       - staging
       - develop
 
+# Adiciona permissões explícitas para o workflow
+permissions:
+  contents: read
+  packages: read
+  statuses: write
+
 jobs:
   lint:
     name: Verificação de Qualidade do Código (Super-Linter)
