@@ -6,6 +6,31 @@ Repositório voltado a pratica de git e controle de código, bem como projetos e
 
 Este repositório foi criado para centralizar o desenvolvimento de projetos e atividades da graduação. O objetivo é que todos possam colaborar de forma organizada, aprendendo e aplicando os conceitos de Git e GitHub.
 
+[![Maintained](https://img.shields.io/maintenance/yes/2025?style=flat-square&label=mantido)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-bem_vindos-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![Conventional Commits](https://img.shields.io/badge/commits-conventional-blue.svg?style=flat-square)](https://www.conventionalcommits.org/pt-br/v1.0.0/)
+[![Changelog](https://img.shields.io/badge/Changelog-MD-blueviolet.svg?style=flat-square)](./CHANGELOG.md)
+[![Code of Conduct](https://img.shields.io/badge/code%20of%20conduct-v1.4-orange.svg?style=flat-square)](./CODE_OF_CONDUCT.md)
+[![Contributing](https://img.shields.io/badge/Contribuir-Guia-blue.svg?style=flat-square)](./CONTRIBUTING.md)
+
+
+
+<div align="center">
+  Nos ajude com esse projeto
+  <br />
+  <br />
+  <a href="https://github.com/ketteiGustavo/fumec-graduacao/issues/new?assignees=&labels=&projects=&template=bug_report.md&title=">Reporte um Bug</a>
+  ·
+  <a href="https://github.com/ketteiGustavo/fumec-graduacao/issues/new?assignees=&labels=&projects=&template=solicitar_recurso.md&title=">Solicitar um Recurso</a>
+  ·
+  <a href="https://github.com/ketteiGustavo/fumec-graduacao/discussions">Faça uma pergunta</a>
+</div>
+
+<div align="center">
+<br />
+</div>
+
 ## ⚙️ Pré-requisitos
 
 Antes de começar, você precisa ter o Git instalado na sua máquina.

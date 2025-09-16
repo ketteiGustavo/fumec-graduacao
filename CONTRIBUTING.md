@@ -73,7 +73,7 @@ Mais detalhes: https://www.conventionalcommits.org/pt-br/v1.0.0/
 
 Use os templates em `.github/ISSUE_TEMPLATE/`:
 - `bug_report.md` para bugs
-- `solicitar_um_recurso.md` para sugestões de funcionalidade
+- `solicitar_recurso.md` para sugestões de funcionalidade
 
 Inclua passos de reprodução, comportamento esperado/atual e, se possível, prints ou logs.
 

@@ -1,2 +1,3 @@
 - :📚: docs: documentações adicionadas ao repositorio, bem como licencas e demais padrões (16-09-2025 15:38)
 - :📚: docs: adicionado licenca MIT ao projeto (16-09-2025 15:39)
+- :📚: docs: melhoria no README (16-09-2025 15:50)
