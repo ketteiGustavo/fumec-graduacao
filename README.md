@@ -174,3 +174,4 @@ git branch -d feature/exemplo-login-usuario
 ## 📚 Documentação
 
 - [Guia de Markdown](./docs/guia-markdown.md): aprenda a escrever arquivos **.md** para documentar seus projetos.
+- [Guia de Uso Git](./docs/guia-git.md): aprenda alguns comandos básicos de GIT para contribuir com o projeto.
