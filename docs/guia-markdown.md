@@ -7,15 +7,13 @@ Este guia apresenta os elementos mais usados no dia a dia.
 
 ## 📌 Títulos
 
+Use `#` para criar títulos. A quantidade de `#` define o nível do título.
+
 ```markdown
-# Título nível 1
+# Título nível 1 (use apenas um por arquivo)
 ## Título nível 2
 ### Título nível 3
 ```
-
-# Título nível 1  
-## Título nível 2  
-### Título nível 3  
 
 ---
 
@@ -51,13 +49,15 @@ Este guia apresenta os elementos mais usados no dia a dia.
 
 ## 💻 Código
 
-```markdown
+Para blocos de código, especifique a linguagem para ter destaque de sintaxe.
+
+````markdown
 `código inline`
 
 ```python
 print("Bloco de código")
 ```
-```
+````
 
 `código inline`
 

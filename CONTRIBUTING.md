@@ -46,7 +46,7 @@ Seguimos **Conventional Commits**:
 
 Ex.: `feat(login): adiciona autenticação com Google`
 
-Mais detalhes: https://www.conventionalcommits.org/pt-br/v1.0.0/
+Mais detalhes: [Conventional Commits](https://www.conventionalcommits.org/pt-br/v1.0.0/)
 
 ## Abertura de Pull Request (PR)
 

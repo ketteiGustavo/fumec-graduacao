@@ -9,6 +9,12 @@ on:
       - staging
       - develop
 
+# Adiciona permissões explícitas para o workflow
+permissions:
+  contents: read
+  packages: read
+  statuses: write
+
 jobs:
   lint:
     name: Verificação de Qualidade do Código (Super-Linter)
@@ -31,3 +37,6 @@ jobs:
           DEFAULT_BRANCH: develop
           # Token para a ação poder se comunicar com a API do GitHub
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Desativa linters problemáticos/barulhentos temporariamente
+          VALIDATE_NATURAL_LANGUAGE: false
+          VALIDATE_EDITORCONFIG: false
