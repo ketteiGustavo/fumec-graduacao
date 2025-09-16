@@ -1,0 +1,33 @@
+
+name: CI - Verificação de Código
+
+# Este workflow roda em todos os Pull Requests para as branches principais
+on:
+  pull_request:
+    branches:
+      - main
+      - staging
+      - develop
+
+jobs:
+  lint:
+    name: Verificação de Qualidade do Código (Super-Linter)
+    runs-on: ubuntu-latest
+    steps:
+      # 1. Baixa o código do repositório para a máquina virtual do GitHub
+      - name: Checkout do código
+        uses: actions/checkout@v4
+        with:
+          # Necessário para o linter comparar as mudanças com a branch padrão
+          fetch-depth: 0
+
+      # 2. Roda a ação Super-Linter
+      - name: Super-Linter
+        uses: super-linter/super-linter@v6
+        env:
+          # Valida todo o código, não apenas os arquivos alterados
+          VALIDATE_ALL_CODEBASE: true
+          # Define a branch padrão para comparação
+          DEFAULT_BRANCH: develop
+          # Token para a ação poder se comunicar com a API do GitHub
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
