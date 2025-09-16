@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+    "editorconfig.editorconfig",
+    "yzhang.markdown-all-in-one",
+    "esbenp.prettier-vscode",
+    "eamodio.gitlens",
+    "github.vscode-pull-request-github",
+    "Gruntfuggly.todo-tree",
+    "bierner.emojisense",
+    "Chouzz.vscode-better-align",
+    "aaron-bond.better-comments",
+    "adpyke.codesnap",
+    "wayou.vscode-todo-highlight",
+    "shardulm94.trailing-spaces"
+  ]
+}

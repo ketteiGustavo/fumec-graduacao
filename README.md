@@ -2,7 +2,7 @@
 
 ## 📝 Descrição
 
-Repositório voltado a pratica de git e controle de código, bem como projetos e ativades de programação.
+Repositório voltado a pratica de git e controle de código, bem como projetos e atividades de programação.
 
 Este repositório foi criado para centralizar o desenvolvimento de projetos e atividades da graduação. O objetivo é que todos possam colaborar de forma organizada, aprendendo e aplicando os conceitos de Git e GitHub.
 
@@ -10,6 +10,7 @@ Este repositório foi criado para centralizar o desenvolvimento de projetos e at
 
 Antes de começar, você precisa ter o Git instalado na sua máquina.
 - **Para instalar o Git:** [Clique aqui para baixar](https://git-scm.com/downloads)
+- **Git para Windows:** Caso esteja no Windows, recomendamos instalar o Git for Windows, que já vem com o Git Bash, facilitando o uso de comandos no terminal.
 - Para verificar se a instalação funcionou, abra um terminal e digite:
   ```bash
   git --version
@@ -44,8 +45,9 @@ Qualquer membro pode adicionar novos projetos ou atividades neste repositório.
 
 Para manter nosso projeto organizado, vamos usar um fluxo de trabalho simples baseado em branches.
 
-- **`main`**: Esta branch contém a versão estável e final do repositório. Ninguém deve enviar código diretamente para ela. Ela só é atualizada a partir da `develop`.
+- **`main`**: Esta branch contém a versão estável e final do repositório. Ninguém deve enviar código diretamente para ela. Ela só é atualizada a partir da `staging`.
 - **`develop`**: Esta é a nossa branch principal de desenvolvimento. Todas as novas funcionalidades, projetos e correções partem dela e voltam para ela.
+- **`staging`**: Esta branch é uma cópia de segurança da branch `main`. E tudo que vai subir para `main`, deve passar em `staging`, testado e aprovado.
 - **`feature/nome-da-tarefa`**: Sempre que você for trabalhar em algo novo (um projeto, uma função, uma correção), você vai criar uma branch a partir da `develop` com esse padrão de nome.
 
 O ciclo é: `develop` -> cria sua `feature` -> finaliza -> junta com a `develop` de novo.
@@ -104,7 +106,8 @@ git commit -m "feat: adiciona tela de login inicial"
 >   - `git commit -m "feat(login): adiciona autenticação com Google"`
 >   - `git commit -m "fix: corrige cálculo de imposto na tela de checkout"`
 >   - `git commit -m "docs: atualiza guia de instalação"`
-
+> - **Todos os Padrões de Commit**
+>   - Para acessar todos os padrões de commit, cliquei em [Conventional Commits](https://www.conventionalcommits.org/pt-br/v1.0.0/)
 
 **Passo 5: Envie sua branch para o GitHub**
 
@@ -142,3 +145,7 @@ git pull origin develop
 # Apague a branch que não será mais usada
 git branch -d feature/exemplo-login-usuario
 ```
+
+## 📚 Documentação
+
+- [Guia de Markdown](./docs/guia-markdown.md): aprenda a escrever arquivos **.md** para documentar seus projetos.

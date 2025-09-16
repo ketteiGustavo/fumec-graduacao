@@ -1,0 +1,27 @@
+## Sempre que alterar o .gitignore informe o motivo do arquivo ignorado, a data e o autor.
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Node.js
+node_modules/
+coverage/
+dist/
+build/
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Comitar config file
+.comitar.json

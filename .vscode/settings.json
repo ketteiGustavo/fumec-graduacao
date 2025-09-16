@@ -1,0 +1,115 @@
+{
+    "trailing-spaces.trimOnSave": true,
+    "trailing-spaces.includeEmptyLines": true,
+    "trailing-spaces.backgroundColor": "rgba(255,0,0,0.3)",
+    "trailing-spaces.highlightCurrentLine": false,
+    "trailing-spaces.schemeIgnore": ["output"],
+    "better-comments.tags": [
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "bold": true
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "bold": true
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00"
+        },
+        {
+            "tag": "*",
+            "color": "#98C379"
+        },
+        {
+            "tag": "note",
+            "color": "#B392F0",
+            "italic": true
+        },
+        {
+            "tag": "deprecated",
+            "color": "#999999",
+            "strikethrough": true,
+            "italic": true
+        }
+    ],
+    "todohighlight.isEnable": true,
+    "todohighlight.keywords": [
+        {
+            "text": "TODO",
+            "color": "#ffffff",
+            "backgroundColor": "#FF8C00",
+            "overviewRulerColor": "#FF8C00"
+        },
+        {
+            "text": "FIXME",
+            "color": "#ffffff",
+            "backgroundColor": "#E74C3C",
+            "overviewRulerColor": "#E74C3C"
+        },
+        {
+            "text": "BUG",
+            "color": "#ffffff",
+            "backgroundColor": "#C0392B",
+            "overviewRulerColor": "#C0392B"
+        },
+        {
+            "text": "NOTE",
+            "color": "#000000",
+            "backgroundColor": "#F1C40F",
+            "overviewRulerColor": "#F1C40F"
+        },
+        {
+            "text": "HACK",
+            "color": "#000000",
+            "backgroundColor": "#1ABC9C",
+            "overviewRulerColor": "#1ABC9C"
+        }
+    ],
+    "betterAlign.surroundSpace": {
+        "colon": [1, 2],
+        "assignment": [1, 1],
+        "arrow": [1, 1],
+        "comment": 2
+    },
+    "emojisense.languages": {
+        "markdown": true,
+        "plaintext": {
+            "markupCompletionsEnabled": false,
+            "emojiDecoratorsEnabled": false
+        },
+        "scminput": true,
+        "git-commit": true,
+        "python": true
+    },
+    "[markdown]": {
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": true,
+            "strings": true
+        }
+    },
+    "todo-tree.highlights.defaultHighlight": {
+        "icon": "alert",
+        "type": "text",
+        "foreground": "#da5416",
+        "background": "#e6e6ffd5",
+        "opacity": 50,
+        "iconColour": "#0697a1af"
+    },
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "icon": "check",
+            "type": "line"
+        },
+        "FIXME": {
+            "foreground": "#000000",
+            //"background": "#db7e05",
+            "iconColour": "#df270faa",
+            "gutterIcon": true,
+            "type": "tag"
+        }
+    }
+}
