@@ -6,15 +6,13 @@ Repositório voltado a pratica de git e controle de código, bem como projetos e
 
 Este repositório foi criado para centralizar o desenvolvimento de projetos e atividades da graduação. O objetivo é que todos possam colaborar de forma organizada, aprendendo e aplicando os conceitos de Git e GitHub.
 
-[![Maintained](https://img.shields.io/maintenance/yes/2025?style=flat-square&label=mantido)]()
+[![Maintained](https://img.shields.io/maintenance/yes/2025?style=flat-square&label=mantido)](https://github.com/ketteiGustavo/fumec-graduacao)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-bem_vindos-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Conventional Commits](https://img.shields.io/badge/commits-conventional-blue.svg?style=flat-square)](https://www.conventionalcommits.org/pt-br/v1.0.0/)
 [![Changelog](https://img.shields.io/badge/Changelog-MD-blueviolet.svg?style=flat-square)](./CHANGELOG.md)
 [![Code of Conduct](https://img.shields.io/badge/code%20of%20conduct-v1.4-orange.svg?style=flat-square)](./CODE_OF_CONDUCT.md)
 [![Contributing](https://img.shields.io/badge/Contribuir-Guia-blue.svg?style=flat-square)](./CONTRIBUTING.md)
-
-
 
 <div align="center">
   Nos ajude com esse projeto
@@ -35,7 +33,7 @@ Este repositório foi criado para centralizar o desenvolvimento de projetos e at
 
 *Nenhum projeto adicionado ainda. Seja o primeiro!*
 
-> Quer adicionar o seu? Siga o guia em [Como Adicionar Novos Projetos](#-adicionando-e-divulgando-novos-projetos)!
+> Quer adicionar o seu? Siga o guia em [Como Adicionar Novos Projetos](#adicionando-e-divulgando-novos-projetos)!
 
 ## ⚙️ Pré-requisitos
 
@@ -51,13 +49,13 @@ Antes de começar, você precisa ter o Git instalado na sua máquina.
 
 Para ter uma cópia do projeto na sua máquina, você precisa "clonar" o repositório.
 
-1.  Abra um terminal ou a pasta onde você quer salvar o projeto.
-2.  Execute o comando abaixo (copie a URL do repositório no próprio GitHub, no botão "Code"):
+1. Abra um terminal ou a pasta onde você quer salvar o projeto.
+2. Execute o comando abaixo (copie a URL do repositório no próprio GitHub, no botão "Code"):
 
     ```bash
     git clone https://github.com/seu-usuario/graduacao-fumec.git
     ```
-3.  Acesse a pasta que foi criada:
+3. Acesse a pasta que foi criada:
     ```bash
     cd graduacao-fumec
     ```
@@ -68,9 +66,9 @@ Pronto! Agora você tem o projeto localmente.
 
 Qualquer membro pode adicionar novos projetos ou atividades neste repositório.
 
-1.  **Crie uma Nova Pasta:** Dentro do repositório, crie uma pasta com o nome do seu projeto (ex: `calculadora-cientifica`).
-2.  **Adicione a Documentação:** Dentro da pasta do seu projeto, crie uma subpasta chamada `docs` e adicione um arquivo `README.md` explicando do que se trata seu projeto, como executá-lo, etc.
-3.  **Divulgue no README Principal (Opcional):** Se quiser que seu projeto tenha visibilidade na página inicial, edite este `README.md` principal, adicionando um link para a pasta do seu projeto. Depois, siga o fluxo de contribuição normal (crie uma branch, commite a alteração e abra um Pull Request).
+1. **Crie uma Nova Pasta:** Dentro do repositório, crie uma pasta com o nome do seu projeto (ex: `calculadora-cientifica`).
+2. **Adicione a Documentação:** Dentro da pasta do seu projeto, crie uma subpasta chamada `docs` e adicione um arquivo `README.md` explicando do que se trata seu projeto, como executá-lo, etc.
+3. **Divulgue no README Principal (Opcional):** Se quiser que seu projeto tenha visibilidade na página inicial, edite este `README.md` principal, adicionando um link para a pasta do seu projeto. Depois, siga o fluxo de contribuição normal (crie uma branch, commite a alteração e abra um Pull Request).
 
 ## 🌊 Fluxo de Trabalho (Workflow)
 
@@ -152,11 +150,11 @@ git push origin feature/exemplo-login-usuario
 
 Agora que suas alterações estão no GitHub, você precisa pedir para que elas sejam incorporadas na `develop`.
 
-1.  Vá para a página do repositório no GitHub.
-2.  O GitHub geralmente mostrará um aviso para criar um **Pull Request**. Clique nele.
-3.  **Base:** `develop` | **Compare:** `sua-feature-branch`
-4.  Escreva um título e uma descrição para o seu Pull Request, explicando o que você fez.
-5.  Clique em "Create Pull Request".
+1. Vá para a página do repositório no GitHub.
+2. O GitHub geralmente mostrará um aviso para criar um **Pull Request**. Clique nele.
+3. **Base:** `develop` | **Compare:** `sua-feature-branch`
+4. Escreva um título e uma descrição para o seu Pull Request, explicando o que você fez.
+5. Clique em "Create Pull Request".
 
 **Passo 7: Revisão e Merge**
 
@@ -181,4 +179,3 @@ git branch -d feature/exemplo-login-usuario
 
 - [Guia de Markdown](./docs/guia-markdown.md): aprenda a escrever arquivos **.md** para documentar seus projetos.
 - [Guia de Uso Git](./docs/guia-git.md): aprenda alguns comandos básicos de GIT para contribuir com o projeto.
-ndos básicos de GIT para contribuir com o projeto.
