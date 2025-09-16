@@ -35,7 +35,7 @@ Este repositório foi criado para centralizar o desenvolvimento de projetos e at
 
 *Nenhum projeto adicionado ainda. Seja o primeiro!*
 
-> Quer adicionar o seu? Siga o guia em [Como Adicionar Novos Projetos](#🌟-adicionando-e-divulgando-novos-projetos)!
+> Quer adicionar o seu? Siga o guia em [Como Adicionar Novos Projetos](#-adicionando-e-divulgando-novos-projetos)!
 
 ## ⚙️ Pré-requisitos
 
@@ -64,7 +64,7 @@ Para ter uma cópia do projeto na sua máquina, você precisa "clonar" o reposit
 
 Pronto! Agora você tem o projeto localmente.
 
-## 🌟 Adicionando e Divulgando Novos Projetos
+## Adicionando e Divulgando Novos Projetos
 
 Qualquer membro pode adicionar novos projetos ou atividades neste repositório.
 
@@ -181,3 +181,4 @@ git branch -d feature/exemplo-login-usuario
 
 - [Guia de Markdown](./docs/guia-markdown.md): aprenda a escrever arquivos **.md** para documentar seus projetos.
 - [Guia de Uso Git](./docs/guia-git.md): aprenda alguns comandos básicos de GIT para contribuir com o projeto.
+ndos básicos de GIT para contribuir com o projeto.

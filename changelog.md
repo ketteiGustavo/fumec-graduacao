@@ -1,7 +1,7 @@
-- :📚: docs: documentações adicionadas ao repositorio, bem como licencas e demais padrões (16-09-2025 15:38)
-- :📚: docs: adicionado licenca MIT ao projeto (16-09-2025 15:39)
-- :📚: docs: melhoria no README (16-09-2025 15:50)
-- :📚: docs: inserido guia de commits (16-09-2025 15:54)
-- :🧱: ci: inserido CI de validação de código, e ajuste em README (16-09-2025 16:13)
-- :🧱: ci: ajuste no CI, permissão de leitura e escrita (16-09-2025 16:21)
-- :✨: feat: template para PR criado e adicionado ao REPO (16-09-2025 16:28)
+# Changelog
+
+- :bookmark: chore: add docs and config files
+- :sparkles: feat: add new features in README
+- :bug: fix: fix README
+- :rocket: deploy: first deploy
+- :📚: docs: documentações adicionadas

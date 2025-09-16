@@ -106,7 +106,6 @@
         },
         "FIXME": {
             "foreground": "#000000",
-            //"background": "#db7e05",
             "iconColour": "#df270faa",
             "gutterIcon": true,
             "type": "tag"
