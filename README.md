@@ -31,6 +31,12 @@ Este repositório foi criado para centralizar o desenvolvimento de projetos e at
 <br />
 </div>
 
+## 📂 Projetos da Turma
+
+*Nenhum projeto adicionado ainda. Seja o primeiro!*
+
+> Quer adicionar o seu? Siga o guia em [Como Adicionar Novos Projetos](#🌟-adicionando-e-divulgando-novos-projetos)!
+
 ## ⚙️ Pré-requisitos
 
 Antes de começar, você precisa ter o Git instalado na sua máquina.
@@ -72,7 +78,7 @@ Para manter nosso projeto organizado, vamos usar um fluxo de trabalho simples ba
 
 - **`main`**: Esta branch contém a versão estável e final do repositório. Ninguém deve enviar código diretamente para ela. Ela só é atualizada a partir da `staging`.
 - **`develop`**: Esta é a nossa branch principal de desenvolvimento. Todas as novas funcionalidades, projetos e correções partem dela e voltam para ela.
-- **`staging`**: Esta branch é uma cópia de segurança da branch `main`. E tudo que vai subir para `main`, deve passar em `staging`, testado e aprovado.
+- **`staging`**: Atua como um ambiente de **pré-produção**. Antes de um conjunto de funcionalidades da `develop` ser lançado na `main`, ele é enviado para a `staging` para testes de integração finais. Garante que a nova versão é estável antes do lançamento oficial.
 - **`feature/nome-da-tarefa`**: Sempre que você for trabalhar em algo novo (um projeto, uma função, uma correção), você vai criar uma branch a partir da `develop` com esse padrão de nome.
 
 O ciclo é: `develop` -> cria sua `feature` -> finaliza -> junta com a `develop` de novo.
