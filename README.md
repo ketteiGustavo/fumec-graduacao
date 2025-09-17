@@ -136,7 +136,7 @@ git commit -m "feat: adiciona tela de login inicial"
 >   - `git commit -m "fix: corrige cálculo de imposto na tela de checkout"`
 >   - `git commit -m "docs: atualiza guia de instalação"`
 > - **Todos os Padrões de Commit**
->   - Para acessar todos os padrões de commit, cliquei em [Conventional Commits](https://www.conventionalcommits.org/pt-br/v1.0.0/)
+>   - Para acessar todos os padrões de commit, acesse [Conventional Commits](https://www.conventionalcommits.org/pt-br/v1.0.0/)
 
 **Passo 5: Envie sua branch para o GitHub**
 
