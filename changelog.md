@@ -5,3 +5,4 @@
 - :bug: fix: fix README
 - :rocket: deploy: first deploy
 - :fix: aplica correções finais de markdown (16-09-2025 16:41)
+- :📚: docs: ajuste no README (17-09-2025 08:28)
